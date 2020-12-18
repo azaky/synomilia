@@ -9,10 +9,13 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.css">
   <style>
+    h1 {
+      font-size: 3.4rem;
+    }
     .main {
       border-top: 0;
-      padding-bottom: 7.5rem;
-      padding-top: 7.5rem;
+      padding-bottom: 5rem;
+      padding-top: 5rem;
       position: relative;
       text-align: center;
       background-color: #f4f5f6;
@@ -20,6 +23,18 @@
     #question {
       margin-bottom: 5rem;
       min-height: 10rem;
+    }
+    @media only screen and (min-width: 768px) {
+      h1 {
+        font-size: 4.6rem;
+      }
+      .main {
+        padding-top: 20rem;
+      }
+      #question {
+        margin-bottom: 10rem;
+        min-height: 20rem;
+      }
     }
     .appendix {
       padding-top: 5rem;
